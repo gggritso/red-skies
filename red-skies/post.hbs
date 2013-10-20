@@ -1,0 +1,21 @@
+{{!< default}}
+
+<header>
+    <h3 class="blog-description">{{@blog.description}}</h3>
+</header>
+
+<main>
+
+    {{#post}}
+    <article class="{{post_class}}">
+        <a href="{{url}}" class="timestamp">∞ {{date timeago="true"}}</a>
+        <h2 id="post-title">{{title}}</h2>
+        <section class="post-excerpt">
+            {{content}}
+        </section>
+    </article>
+    {{/post}}
+
+    <hr>
+
+</main>

@@ -1,0 +1,107 @@
+$crimson: #E82C0C;
+
+body {
+	font-family: Merriweather, Georgia, serif;
+
+	font-size: 62.5%;
+	line-height: 200%;
+
+	color: #FFE8DD;
+	background-color: #222;
+}
+
+header {
+	background-color: $crimson;
+	background-image: url(/assets/clouds.jpg);
+	background-size: 100%;
+}
+
+article {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: normal;
+	line-height: 1.75rem;
+	margin-top: 0.25rem;
+}
+
+blockquote {
+	padding-left: 2%;
+	margin: 2% 0;
+	border-left: solid 2px $crimson;
+}
+
+a {
+	color: #E82C0C;
+}
+
+code {
+	font-family: "Courier New", monospace;
+}
+
+header, footer, .pagination {
+	text-align: center;
+}
+
+hr {
+	border: 0 1px 0 0;
+	border-color: $crimson;
+}
+
+footer, .pagination {
+	font-size: 1rem;
+}
+
+.blog-description {
+	text-align: center;
+	letter-spacing: -0.1em;
+	font-weight: normal;
+	color: #222;
+}
+
+.timestamp {
+	text-decoration: none;
+	font-size: 0.75rem;
+}
+
+/* TABLETS */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+	h2 {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	article {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	.timestamp {
+		font-size: 1rem;
+	}
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width : 1025px) {
+
+	h2 {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	article {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	.timestamp {
+		font-size: 1rem;
+	}
+
+}

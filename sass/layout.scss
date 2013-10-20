@@ -1,0 +1,59 @@
+/* DEFAULT (MOBILE) */
+main {
+	margin: auto;
+}
+
+header {
+	margin-bottom: 3rem;
+}
+
+.blog-content {
+	width: 100%;
+	margin: auto;
+}
+
+.blog-description {
+	margin: 0;
+	position: relative;
+	line-height: 1em;
+
+	height: 8rem;
+	font-size: 5rem;
+	top: 4.25rem;
+}
+
+/* TABLETS */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+	header {
+		height: 10rem;
+	}
+
+	main {
+		width: 85%;
+	}
+
+	.blog-description {
+		font-size: 8rem;
+		top: 4rem;
+	}
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width : 1025px) {
+
+	header {
+		height: 13rem;
+	}
+
+	main {
+		width: 60%;
+	}
+
+	.blog-description {
+		font-size: 9rem;
+		top: 6.2rem;
+	}
+
+}
